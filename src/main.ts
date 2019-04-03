@@ -1,2 +1,5 @@
 import { app, BrowserWindow } from "electron";
-import
+import * as fs from "fs";
+import * as path from "path";
+
+
