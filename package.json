@@ -1,0 +1,19 @@
+{
+  "name": "hg-elctron",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ming995/hg-elctron.git"
+  },
+  "author": "Ming995",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ming995/hg-elctron/issues"
+  },
+  "homepage": "https://github.com/ming995/hg-elctron#readme"
+}
