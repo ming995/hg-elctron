@@ -1,0 +1,12 @@
+# node 
+node_modules
+
+# vscode
+.vscode
+
+# log
+*.log
+
+# osx
+.DS_Store
+
