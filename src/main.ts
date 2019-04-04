@@ -20,13 +20,15 @@ function createWindow() {
     y: mainWindowState.y,
     width: mainWindowState.width,
     height: mainWindowState.height,
-    backgroundColor: "#252B39",
+    icon: path.join(__dirname, "../assets/imgs/hg-icon.png"),
+    backgroundColor: "#010205",
     webPreferences: {
       nodeIntegrationInWorker: true,
     }
   });
 
   mainWindowState.manage(mainWindow);
+
   mainWindow.loadFile(path.join(__dirname, "../views/index.html"));
 
   mainWindow.on("closed", () => {
@@ -34,7 +36,7 @@ function createWindow() {
   })
 }
 
-console.log(path.join(__dirname, "../views/index.html"));
+console.log(path.join(__dirname, "../assets/imgs/hg-icon.png"));
 
 app.on("ready", createWindow);
 
