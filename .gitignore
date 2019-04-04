@@ -1,4 +1,4 @@
-# node 
+# node
 node_modules
 
 # vscode
@@ -9,4 +9,6 @@ node_modules
 
 # osx
 .DS_Store
+
+dist
 
