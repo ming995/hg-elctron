@@ -20,14 +20,22 @@ function createWindow() {
     y: mainWindowState.y,
     width: mainWindowState.width,
     height: mainWindowState.height,
-    backgroundColor: "#ffffff",
+    backgroundColor: "#252B39",
     webPreferences: {
       nodeIntegrationInWorker: true,
     }
   });
 
   mainWindowState.manage(mainWindow);
-  mainWindow.loadFile(path.join(__dirname, "../../views/main.html"));
+  mainWindow.loadFile(path.join(__dirname, "../views/index.html"));
+
+  mainWindow.on("closed", () => {
+    mainWindow = null;
+  })
 }
 
+console.log(path.join(__dirname, "../views/index.html"));
+
 app.on("ready", createWindow);
+
+
