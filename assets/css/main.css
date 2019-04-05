@@ -24,3 +24,16 @@
   position: absolute;
   top: 72px;
 }
+
+.hg-content{
+  display: flex;
+}
+.left{
+  margin-right: 20px;
+  background: #43EFC5;
+}
+.right{
+  flex: 1;
+  background: #fff;
+}
+.left p{width: 200px;}
